@@ -73,7 +73,7 @@ header {
         padding: 15px;
     }
 
-    .topics button {
+    .topics a {
         font-size: 18px; /* Further reduce font size */
         padding: 10px 15px;
     }
