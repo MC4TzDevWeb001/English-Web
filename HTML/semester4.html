@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/semester3-4.css">
+    <title>4th Semester</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the 4th Semester!</h1>
+        <p id="welcomeMessage"></p>
+    </header>
+    <main>
+        <div class="topics">
+            <h2>Present Simple and Past Simple</h2>
+            <button><a href="s4t1.html">GO!</a></button>
+        </div>
+    </main>
+    <script>
+        const name = localStorage.getItem('nombreUsuario');
+        document.getElementById('welcomeMessage').textContent = 
+            `Hello ${name || 'student'}, here you will find content for the fourth semester.`;
+    </script>
+</body>
+</html>
