@@ -28,7 +28,7 @@ const questions = [
             { text: "worries", explanation: "/wuorries/ is the best choice.It describes Alfred's routine." },
             { text: "'s worried", explanation: "The correct place for the contraction 's (= verb be) <strong>...is always...</strong>." }
         ],
-        correctAnswer: 3 // Índice de la opción correcta
+        correctAnswer: 2 // Índice de la opción correcta
     },
     {
         question: "In the evenings she ... with her friends.",
@@ -48,7 +48,7 @@ const questions = [
             { text: "leave", explanation: "Positive. 'All mornings' is a Time Expression of routine, habits. 'leave' = /li:v/" },
             { text: "lives", explanation: "No way! This is a mistaken choice."}
         ],
-        correctAnswer: 3 // Índice de la opción correcta
+        correctAnswer: 2 // Índice de la opción correcta
     },
     {
         question: "My father is an engineer and he ... for a big company from Brazil, and he ... enough for the five of us.",
@@ -68,7 +68,7 @@ const questions = [
             { text: "swims", explanation: "'swims' /suims/ is in Present Simple Tense and implies habit."},
             { text: "is swimming", explanation: "Nope. Because Continuous Tenses describe simultaneous actions." }
         ],
-        correctAnswer: 2 // Índice de la opción correcta
+        correctAnswer: 0 // Índice de la opción correcta
     },
     {
         question: "In my house we ... water and electricity.",

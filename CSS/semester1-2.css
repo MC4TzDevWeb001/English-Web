@@ -32,8 +32,9 @@ header {
     padding: 10px 20px; /* Ajusta el padding para mayor espacio */
 }
 
-.topics button {
+.topics a {
     color: black;
+    text-decoration: none;
     padding: 10px 25px;
     font-size: 30px;
     border: none;
@@ -42,13 +43,8 @@ header {
     cursor: pointer;
 }
 
-.topics button:hover {
+.topics a:hover {
     background-color: #296b2c;
-    color: white;
-}
-
-.topics button a {
-    text-decoration: none;
     color: white;
 }
 
@@ -60,11 +56,11 @@ header {
         padding: 20px;
     }
 
-    .topics button {
+    .topics a {
         position: static; /* Remove absolute positioning */
         margin-top: 20px; /* Add spacing between elements */
         font-size: 20px; /* Reduce font size */
-        width: 100%; /* Make button take full width */
+        width: 90%; /* Make button take full width */
     }
 }
 
@@ -77,7 +73,7 @@ header {
         padding: 15px;
     }
 
-    .topics button {
+    .topics a {
         font-size: 18px; /* Further reduce font size */
         padding: 10px 15px;
     }

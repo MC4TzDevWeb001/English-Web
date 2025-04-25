@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    background-color: #ddd;
+}
+
+h1 {
+    color: #dd63ff;
+}
+
+header {
+    margin: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.topics {
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+    align-items: center; /* Centra verticalmente */
+    background-color: #dd63ff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00000099;
+    padding: 10px 20px; /* Ajusta el padding para mayor espacio */
+}
+
+.topics a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.topics a:hover {
+    background-color: #296b2c;
+    color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .topics {
+        width: 90%; /* Reduce width for smaller screens */
+        flex-direction: column; /* Stack content vertically */
+        padding: 20px;
+    }
+
+    .topics a {
+        position: static; /* Remove absolute positioning */
+        margin-top: 20px; /* Add spacing between elements */
+        font-size: 20px; /* Reduce font size */
+        width: 90%; /* Make button take full width */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+
+    .topics {
+        padding: 15px;
+    }
+
+    .topics a {
+        font-size: 18px; /* Further reduce font size */
+        padding: 10px 15px;
+    }
+}
