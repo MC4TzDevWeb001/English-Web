@@ -6,6 +6,7 @@ body{
     height: 100vh;
     margin: 0;
     background-color: #f1d7be;
+    overflow: hidden;
 }
 .main-wapper{
     padding: 25px;
@@ -45,4 +46,34 @@ a{
 }
 a:hover{
     color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .main-wapper{
+        width: 100vw;
+        height:  100vh;
+        padding: 0;
+        justify-content: start;
+        align-items: start;
+        border-radius: 0;
+    }
+    h1{
+        color: #F0E9D2;
+        margin: 0;
+        padding: 20px 10px 30px 10px;
+        width: 100%;
+        text-align: center;
+        background-color: #181D31;
+    }
+    p{
+        padding: 20px 10px 10px 10px;
+    }
+    button{
+        width: 100%;
+        font-size: 14px;
+    }
+    a{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
 }

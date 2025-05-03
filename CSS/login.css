@@ -5,7 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f1d7be;
+    background-color: #F0E9D2;
+    color: #181D31;
 }
 .login-box {
     background: white;
