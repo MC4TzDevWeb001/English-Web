@@ -4,144 +4,141 @@ const questions = [
         question: "My cousin ... 3 books every quarter. He told me.",
         options: [
             { text: "was reading", explanation: "" },
-            { text: "read", explanation: "We do not use Past Simple 'read' /red/ because the real sense of the sentence is a description of a habit." },
-            { text: "reads", explanation: "'reads' /rids/ is in Present Simple Tense and implies habit." },
-            { text: "is reading", explanation: "Nope. Because Continuous Tenses describe simultaneous actions." }
+            { text: "read", explanation: "We do not use Past Simple 'read' /red/ because the sentence describes a habit, not a past action." },
+            { text: "reads", explanation: "'reads' /riːdz/ is in Present Simple Tense and correctly implies a habitual action." },
+            { text: "is reading", explanation: "Incorrect. Continuous tenses describe actions happening at the moment of speaking, not habits." }
         ],
-        correctAnswer: 0 // Índice de la opción correcta
+        correctAnswer: 0 // Index of the correct option
     },
     {
         question: "On Sundays, my family and I ... lamb for breakfast together.",
         options: [
-            { text: "went", explanation: "'had' /jad/ is not possible because the action sounds like a habit." },
-            { text: "have", explanation: "Positive. 'have' /jav/ fills in perfectly." },
-            { text: "is having", explanation: "Negative. Present Continuous describes activities happening at the moment of speaking." },
-            { text: "'s had", explanation: "Present Perfect describes actions when the time reference is vague and. 'On Sundays' is very specific." }
+            { text: "went", explanation: "'had' /hæd/ is incorrect because the action describes a current habit." },
+            { text: "have", explanation: "Correct. 'have' /hæv/ fits perfectly for this habitual action." },
+            { text: "is having", explanation: "Incorrect. Present Continuous describes actions happening right now." },
+            { text: "'s had", explanation: "Incorrect. Present Perfect is used for indefinite time, but 'On Sundays' is specific." }
         ],
-        correctAnswer: 1 // Índice de la opción correcta
+        correctAnswer: 1 // Index of the correct option
     },
     {
         question: "Alfred always ... about his little brother.",
         options: [
-            { text: "worry", explanation: "/wuorri/ is not possible. The third person 'he' takes plural verbs in Present Simple Tense" },
-            { text: "worried", explanation: "/wuorrid/ Past Tense in this case is not possible because there is no time expression in past." },
-            { text: "worries", explanation: "/wuorries/ is the best choice.It describes Alfred's routine." },
-            { text: "'s worried", explanation: "The correct place for the contraction 's (= verb be) <strong>...is always...</strong>." }
+            { text: "worry", explanation: "/ˈwɜːri/ is incorrect. Third person singular requires '-s' in Present Simple." },
+            { text: "worried", explanation: "/ˈwɜːrid/ Past Tense is incorrect as there's no past time reference." },
+            { text: "worries", explanation: "/ˈwɜːriz/ is correct. It describes Alfred's routine." },
+            { text: "'s worried", explanation: "Incorrect placement of the contraction 's (verb be) with 'always'." }
         ],
-        correctAnswer: 2 // Índice de la opción correcta
+        correctAnswer: 2 // Index of the correct option
     },
     {
         question: "In the evenings she ... with her friends.",
         options: [
-            { text: "goes out", explanation: "Positive. 'In the evenings' is a Time Expression of routine, habits." },
-            { text: "go out", explanation: "The correct expression is 'go out with' but remember: 'she go<strong>es</strong>'." },
-            { text: "goes", explanation: "In this case the correct expression is 'go out with'." },
-            { text: "goes out with", explanation: "No way! This is a mistaken choice because 'with' is twice."}
+            { text: "goes out", explanation: "Correct. 'In the evenings' indicates a habitual action." },
+            { text: "go out", explanation: "Incorrect. Third person singular requires 'goes'." },
+            { text: "goes", explanation: "Incorrect. The correct phrase is 'goes out with'." },
+            { text: "goes out with", explanation: "Incorrect. 'With' appears twice in this option." }
         ],
-        correctAnswer: 0 // Índice de la opción correcta
+        correctAnswer: 0 // Index of the correct option
     },
     {
-        question: "All mornings my parents ...home at 6 or earlier.",
+        question: "Every morning my parents ... home at 6 or earlier.",
         options: [
-            { text: "live", explanation: "Nope.'leave' and 'live' have almost similar pronunciation.'lives' = /livs/ and 'leaves' = /li:vs/" },
-            { text: "leaves", explanation: "Impossible answer. In this case the correct verb is singular." },
-            { text: "leave", explanation: "Positive. 'All mornings' is a Time Expression of routine, habits. 'leave' = /li:v/" },
-            { text: "lives", explanation: "No way! This is a mistaken choice."}
+            { text: "live", explanation: "Incorrect. 'leave' and 'live' have different meanings." },
+            { text: "leaves", explanation: "Incorrect. Plural subject requires 'leave'." },
+            { text: "leave", explanation: "Correct. 'Every morning' indicates a habitual action." },
+            { text: "lives", explanation: "Incorrect. Plural subject requires 'leave'." }
         ],
-        correctAnswer: 2 // Índice de la opción correcta
+        correctAnswer: 2 // Index of the correct option
     },
     {
         question: "My father is an engineer and he ... for a big company from Brazil, and he ... enough for the five of us.",
         options: [
-            { text: "works/wins", explanation: "This is a routine or habit description, but 'wins' is incorrect. People do not ☺win money☺" },
-            { text: "is working/'s earning", explanation: "It is ambiguous because it may reflect a stroke of luck." },
-            { text: "'s working/ 's earning", explanation: "In this case the contraction is preferred. But the sentence is ambiguous. It doesn't sound as a habit ‼"},
-            { text: "works/earns", explanation: "Positive.It fills in perfectly." }
+            { text: "works/wins", explanation: "Incorrect. People 'earn' money, they don't 'win' it." },
+            { text: "is working/'s earning", explanation: "Incorrect. This suggests temporary situations, not habitual actions." },
+            { text: "'s working/ 's earning", explanation: "Incorrect. The contractions suggest temporary situations." },
+            { text: "works/earns", explanation: "Correct. Describes habitual actions perfectly." }
         ],
-        correctAnswer: 3 // Índice de la opción correcta
+        correctAnswer: 3 // Index of the correct option
     },
     {
         question: "My mom ... once a year.",
         options: [
-            { text: "was swimming", explanation: "Continuous Tenses describe simultaneous actions and this is not definitely the situation ☺" },
-            { text: "swam", explanation: "We do not use Past Simple because the real sense of the sentence is a description of a habit." },
-            { text: "swims", explanation: "'swims' /suims/ is in Present Simple Tense and implies habit."},
-            { text: "is swimming", explanation: "Nope. Because Continuous Tenses describe simultaneous actions." }
+            { text: "was swimming", explanation: "Incorrect. Continuous tenses describe ongoing actions." },
+            { text: "swam", explanation: "Incorrect. Past Simple doesn't describe habits." },
+            { text: "swims", explanation: "Correct. Present Simple describes habitual actions." },
+            { text: "is swimming", explanation: "Incorrect. Continuous tenses describe ongoing actions." }
         ],
-        correctAnswer: 0 // Índice de la opción correcta
+        correctAnswer: 2 // Index of the correct option
     },
     {
         question: "In my house we ... water and electricity.",
         options: [
-            { text: "saved", explanation: "Past Tense is not a good answer because it is a current topic☺" },
-            { text: "save always", explanation: "The order: 'verb + adverb of frequency' is incorrect." },
-            { text: "save", explanation: "This is a good answer."},
-            { text: "always save", explanation: "Very well. It describes people care about natural resources." }
+            { text: "saved", explanation: "Incorrect. Past Tense doesn't describe current habits." },
+            { text: "save always", explanation: "Incorrect. Adverb placement is wrong." },
+            { text: "save", explanation: "Correct, though less specific than option 4." },
+            { text: "always save", explanation: "Best answer. Describes habitual conservation." }
         ],
-        correctAnswer: 3 // Índice de la opción correcta
+        correctAnswer: 3 // Index of the correct option
     },
     {
         question: "In 2011, a tsunami ... Japan and ... an atomic catastrophe.",
         options: [
-            { text: "hit/caused", explanation: "Positive. The date 'In 2011...' justifies the Past Tense answer." },
-            { text: "hits/causes", explanation: "It depends on the conversation. This answer may be possible." },
-            { text: "hit/hit", explanation: "The first 'hit' is not possible." },
-            { text: "caused/caused", explanation: "The second 'caused' is incorrect." }
+            { text: "hit/caused", explanation: "Correct. 'In 2011' justifies Past Tense." },
+            { text: "hits/causes", explanation: "Incorrect. Present Tense doesn't match past time reference." },
+            { text: "hit/hit", explanation: "Incorrect. Second 'hit' is wrong verb for this context." },
+            { text: "caused/caused", explanation: "Incorrect. First 'caused' is wrong verb for tsunami action." }
         ],
-        correctAnswer: 0 // Índice de la opción correcta
+        correctAnswer: 0 // Index of the correct option
     },
     {
         question: "Early this morning, my parents...a car accident on their way to work and...some pictures.",
         options: [
-            { text: "see/take", explanation: "'Early this morning' expresses past events." },
-            { text: "were seeing/were taking", explanation: "Impossible answer, because this answer defines the accident as a long period of time." },
-            { text: "saw/took", explanation: "Positive. This past event was a short action." }
+            { text: "see/take", explanation: "Incorrect. Present Tense doesn't match past time reference." },
+            { text: "were seeing/were taking", explanation: "Incorrect. Continuous suggests prolonged actions." },
+            { text: "saw/took", explanation: "Correct. Past Simple for completed past actions." }
         ],
-        correctAnswer: 2 // Índice de la opción correcta
+        correctAnswer: 2 // Index of the correct option
     },
     {
         question: "These four girls in the photo... me some words in French.",
         options: [
-            { text: "learned", explanation: "Incorrect. This answer is not possible" },
-            { text: "said", explanation: "The correct expression is 'go out with' but remember: 'she go<strong>es</strong>'." },
-            { text: "taught", explanation: "In this case the correct expression is 'go out with'." },
-            { text: "spoke", explanation: "No way! This is a mistaken choice because 'with' is twice. " }
+            { text: "learned", explanation: "Incorrect. Wrong verb for this context." },
+            { text: "said", explanation: "Incorrect. 'Say' isn't used for teaching." },
+            { text: "taught", explanation: "Correct. 'Taught' means instructed in this context." },
+            { text: "spoke", explanation: "Incorrect. Doesn't convey the teaching aspect." }
         ],
-        correctAnswer: 2 // Índice de la opción correcta
+        correctAnswer: 2 // Index of the correct option
     },
-
     {
         question: "Last year, in September some books...off the shelves in the earthquake.",
         options: [
-            { text: "took", explanation: "Incorrect. This answer is not possible." },
-            { text: "fall", explanation: "The correct expression is in Past Tense because of 'Last year'" },
-            { text: "fallen", explanation: "This is Past Participle '/folen/ fallen' and cannot be the answer." },
-            { text: "fell", explanation: "Excellent! Fell off is a phrasal verb." }
+            { text: "took", explanation: "Incorrect. Wrong verb for this context." },
+            { text: "fall", explanation: "Incorrect. Needs to be Past Tense." },
+            { text: "fallen", explanation: "Incorrect. Past Participle needs auxiliary verb." },
+            { text: "fell", explanation: "Correct. 'Fell off' is the proper phrasal verb." }
         ],
-        correctAnswer: 3 // Índice de la opción correcta
+        correctAnswer: 3 // Index of the correct option
     },
-
     {
         question: "The first time I...tiffos, they ...me a terrible diarrhea.",
         options: [
-            { text: "ate/got sick", explanation: "This is incorrect because it is 'get sick <strong>of</strong>' the complete expression. ☺" },
-            { text: "had/gave", explanation: "Right! Because of tiffos you got diarrhea." },
-            { text: "ate/had", explanation: "This answer is possible, <strong>but</strong> you were probably sick of diarrhea before eating tiffos." },
-            { text: "eat/have", explanation: "The context 'The first time' makes reference to a Past event." }
+            { text: "ate/got sick", explanation: "Incorrect. 'Got sick of' implies disgust, not illness." },
+            { text: "had/gave", explanation: "Correct. Proper verbs for this context." },
+            { text: "ate/had", explanation: "Possible but less precise than option 2." },
+            { text: "eat/have", explanation: "Incorrect. Needs to be Past Tense." }
         ],
-        correctAnswer: 1 // Índice de la opción correcta
+        correctAnswer: 1 // Index of the correct option
     },
-
     {
         question: "A year ago, we ...five days with no water supply. The sixth day, we ...to close the main avenue.",
         options: [
-            { text: "spent/decided", explanation: "Good! You 'spend days <strong>in</strong> Cancun or spend money <strong>on</strong> -movies,sodas'☺"},
-            { text: "went/stopped", explanation: "Not really. These verbs may be understandable but they are not correct." },
-            { text: "spend/decide", explanation: "Incorrect. 'A year ago' is a Time Reference for Past Events." },
+            { text: "spent/decided", explanation: "Correct. Proper Past Tense verbs for this context." },
+            { text: "went/stopped", explanation: "Incorrect. Verbs don't fit the context well." },
+            { text: "spend/decide", explanation: "Incorrect. Needs to be Past Tense." }
         ],
-        correctAnswer: 0 // Índice de la opción correcta
-    },
-    // Más preguntas...
+        correctAnswer: 0 // Index of the correct option
+    }
+    // More questions...
 ];
 let currentQuestion = 0;
 let score = 0;
