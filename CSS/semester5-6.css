@@ -3,16 +3,54 @@ body {
     text-align: center;
     padding: 0px;
     margin: 0;
-    background-color: #ddd;
+    background-color: #F582A7;
 }
 
 h1 {
-    color: #dd63ff;
+    color: #F10086;
 }
 
-header {
+header{
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: black;
+    color: #BBE1FA;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.header ul {
+    list-style-type: none;
     margin: 0;
-    background-color: #333;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos de la lista */
+    justify-content: center; /* Center the list items */
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title {
+    margin: 0;
+    background-color: #180A0A;
     color: white;
     padding: 10px 0;
     margin-bottom: 20px;
@@ -26,9 +64,9 @@ header {
     display: flex;
     justify-content: space-between; /* Espacio entre el texto y el botón */
     align-items: center; /* Centra verticalmente */
-    background-color: #dd63ff;
+    background-color: #711A75;
     border-radius: 20px;
-    box-shadow: 0 0 20px #00000099;
+    box-shadow: 0 0 20px #1B262C;
     padding: 10px 20px; /* Ajusta el padding para mayor espacio */
 }
 
